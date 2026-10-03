@@ -1,0 +1,4 @@
+# Remplace par ton sous-domaine API (DNS A vers l'IP du VPS). HTTPS automatique.
+api.mondomaine.com {
+    reverse_proxy 127.0.0.1:3000
+}
